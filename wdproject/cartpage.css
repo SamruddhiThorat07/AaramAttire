@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    pading:0;
+}
+
+#big{
+    display:flex;
+    flex-direction: column;
+
+}
+#small-1{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+}
+
+#content{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#size-chart{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around ;
+    
+}
+#size-chart {
+    display: flex; /* Arrange buttons horizontally */
+    justify-content: space-around; /* Distribute buttons evenly */
+  }
+  
+  .size-button {
+    padding: 10px 20px; /* Adjust padding for desired button size */
+    margin: 5px;
+    border: 1px solid #ccc; /* Customize border color */
+    border-radius: 4px; /* Set button corner roundness */
+    background-color: #fff; /* Set button background color */
+    cursor: pointer; /* Indicate hover interaction */
+  }
+  
+  .size-button:hover {
+    background-color: #f2f2f2; /* Change background color on hover */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition effect */
+  }
+
+#b{
+    padding: 10px 20px; /* Adjust padding for desired button size */
+    margin: 5px;
+    border: 1px solid #ccc; /* Customize border color */
+    border-radius: 4px; /* Set button corner roundness */
+    background-color: #fff; /* Set button background color */
+    cursor: pointer; /* Indicate hover interaction */
+  }
+  #b:hover{
+    {
+        background-color: #f2f2f2; /* Change background color on hover */
+        transition: background-color 0.2s ease-in-out; /* Smooth transition effect */
+      }
+  }
+#c{
+    display:flex;
+    flex-direction:row; 
+}
+#d{
+    display:flex;
+    flex-direction:row; 
+    justify-content: space-between;
+}
+#e{
+    display:flex;
+    flex-direction:row; 
+    justify-content: space-between;
+}
+#image-section{
+    display:flex;
+    flex-direction:row; 
+    justify-content: space-between;
+}
